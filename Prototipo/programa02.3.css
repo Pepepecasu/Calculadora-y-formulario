@@ -1,0 +1,31 @@
+body{
+    font-size: 14px;
+    background-color:rgb(240, 242, 250);
+}
+h1{
+    text-align: center;
+}
+.Titulo{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(88, 8, 194); 
+
+}
+.Cuerpo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #2022c2;
+    color:rgb(36, 3, 19);
+    text-align: justify;
+
+}
+form{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    display: block;
+    margin: 5px;
+}
+input :invalid{
+    background-color: crimson;
+}

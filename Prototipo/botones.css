@@ -1,0 +1,15 @@
+.button{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: honeydew;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #000;
+    border-color: darkblue;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 35px;
+}

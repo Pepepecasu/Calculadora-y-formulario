@@ -1,0 +1,90 @@
+body{
+
+    margin: 0px;
+    font-size: 20px;
+}
+a{
+    color: mintcream;
+    text-decoration: none;
+    
+}
+header{
+    display: flex;
+    background-color: black;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+    margin-right: 13px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 13px;
+}
+nav a:hover{
+    color: greenyellow; 
+}
+h2 button{
+    
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: honeydew;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background-color: rgb(255, 255, 255); */
+     border-color: rgb(236, 174, 241); 
+     border-width: 3px; 
+    border-style: solid;
+    border-radius: 35px;
+}
+h2 button:hover{
+    color: greenyellow; 
+}
+h1 {
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h2 a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+li{
+    text-align: justify;
+}
+li a{
+    color: black;
+}
+li a:hover{
+    color: rgb(76, 137, 252); 
+
+}
+
+
+@media (max-width: 680px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}

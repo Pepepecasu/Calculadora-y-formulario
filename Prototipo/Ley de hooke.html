@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\levim\OneDrive\Escritorio\Prototipo\nuevopar.css">
+        <title>Ley de Hooke</title>
+    <link rel="shortcut icon" href="ma.png" type="image/x-icon">
+
+</head>
+<body>
+    
+    <header>
+        <a href="C:\Users\levim\OneDrive\Escritorio\Prototipo\Inicio.html" target="_blank" class="logo">
+            <img src="ma.png" alt="logo">
+            <h2 class="nom-em">NewFisicLab</h2>
+        </a>
+        <nav>
+           <a href="C:\Users\levim\OneDrive\Escritorio\Prototipo\Inicio.html" class="nav-link">Inicio</a>
+           <a href="" class="nav-link">Codig</a>
+           <a href="" class="nav-link">Contacto</a>
+        </nav>
+       </header>
+   <h1>¿Qué es?
+   </h1>
+   <p>
+    Esta ley afirma que la deformación elástica que sufre un cuerpo es proporcional a la fuerza que produce tal deformación, 
+    siempre y cuando no se sobrepase el límite de elasticidad. 
+    Robert Hooke (1635-17039, estudió, entre otras cosas, el resorte. 
+    Su ley permite asociar una constante a cada resorte.
+   </p>
+   <h2> Formula: </h2>
+   <p>Fs = K.x  <br>
+    k= Constante del muelle <br>
+    x= Elasticidad</p>
+
+   <h2 >Calculadora <br>
+    <a> Constante del muelle: <input type="number" value="" id="k">
+    Elasticidad: <input type="number" value="" id="x"></a>
+   
+    <script> // se incrustra Js con una funcion 
+        function res() {  
+            let div = document.createElement('div'); //se declara la variable del div 
+        div.className = "alert"; //se asigna una clase que crea un div en el html para mostrar el resultado
+        let k1= document.getElementById('k').value;
+        let x1=document.getElementById('x').value;//se relacionan las variables con los input
+        div.innerHTML = parseInt(k1) * parseInt(x1); //se hace la operacion 
+      
+        document.body.append(div);//muestra la operaicion en el div 
+        }
+      </script>
+            
+        
+     <button onclick="res()"> Calcular </button>
+   
+   </h2>
+    
+   Resultados
+    
+    
+</body>
+</html>

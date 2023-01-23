@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\levim\OneDrive\Escritorio\Prototipo\nuevopar.css">
+        <link rel="shortcut icon" href="ma.png" type="image/x-icon">
+    <link rel="stylesheet" href="http://localhost/Miphp/Prototipo/botones.css">
+
+      
+</head>
+<body>
+    <header>
+        <a href="C:\Users\levim\OneDrive\Escritorio\Prototipo\Inicio.html" target="_blank" class="logo">
+            <img src="ma.png" alt="logo">
+            <h2 class="nom-em">NewFisicLab</h2>
+        </a>
+        <nav>
+           <a href="C:\Users\levim\OneDrive\Escritorio\Prototipo\Inicio.html" class="nav-link">Inicio</a>
+           <a href="" class="nav-link">Codig</a>
+           <a href="" class="nav-link">Contacto</a>
+        </nav>
+       </header>
+    <h1>¿Qué es?</h1>
+    <p>¿Qué es el peso especifico?
+        <br> El peso específico es la relación existente entre el peso y el volumen que ocupa
+        una sustancia en el espacio. Es el peso de cierta cantidad de sustancia dividido el
+        volumen que ocupa. En el Sistema Internacional se expresa en unidades
+        de Newtons sobre metro cúbico (N/m3).
+       
+    </p>
+    <h1>Ejemplos</h1>
+    <p>Algunos ejemplos de peso específico de distintos materiales son:
+        Yeso: 1250 N/m3
+        Cal: 1000 N/m3
+        Arena seca: 1600 N/m3
+        Arena húmeda: 1800 N/m3
+    </p>
+      <h2 >Calculadora <br>
+        <a> Peso de la sustancia: <input type="number" value="" id="k">N
+        Volumen del la sustancia: <input type="number" value="" id="x">m3</a>
+       
+        <script> // se incrustra Js con una funcion 
+            function res() {  
+                let div = document.createElement('div'); //se declara la variable del div 
+            div.className = "alert"; //se asigna una clase que crea un div en el html para mostrar el resultado
+            let k1= document.getElementById('k').value;
+            let x1=document.getElementById('x').value;//se relacionan las variables con los input
+            div.innerHTML = parseInt(k1) / parseInt(x1); //se hace la operacion 
+          
+            document.body.append(div , "N/m3");//muestra la operaicion en el div 
+                
+            }
+          </script> <br>
+                
+            
+          
+        <input type="button" onclick="res()" value="Calcular"  > 
+     
+       
+      
+       <input  class='.button' type="button" onclick="resh()" value="Refrescar" id="con">
+       <script>
+        function resh() {
+            location.reload(con);
+            
+        }
+    </script> </h2><br>
+     Resultados<br>
+
+        
+</body>
+</html>
