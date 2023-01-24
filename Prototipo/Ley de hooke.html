@@ -36,8 +36,8 @@
     x= Elasticidad</p>
 
    <h2 >Calculadora <br>
-    <a> Constante del muelle: <input type="number" value="" id="k">
-    Elasticidad: <input type="number" value="" id="x"></a>
+    <a> Fs: <input type="number" value="" id="k" autofocus placeholder="Escribe la constante del muelle">
+    X: <input type="number" value="" id="x" autofocus placeholder="Escribe la elasticidad"></a>
    
     <script> // se incrustra Js con una funcion 
         function res() {  
@@ -54,6 +54,17 @@
             
         
      <button onclick="res()"> Calcular </button>
+     <button onclick="resh()" id="con"> Refrescar </button>
+     
+       
+      
+       
+     <script>
+      function resh() {
+          location.reload(con);
+          
+      }
+  </script>
    
    </h2>
     
