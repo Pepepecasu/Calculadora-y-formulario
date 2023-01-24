@@ -63,6 +63,9 @@ h2 a{
     font-size: 20px;
     color: black;
 }
+h2 a input{
+    height: 100px;
+}
 p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
