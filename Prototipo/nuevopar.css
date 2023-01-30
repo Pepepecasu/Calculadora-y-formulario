@@ -70,7 +70,8 @@ h2 a{
     color: black;
 }
 h2 a input{
-    height: 100px;
+    height: 20px;
+    width: 20
 }
 p{
     text-align: center;
