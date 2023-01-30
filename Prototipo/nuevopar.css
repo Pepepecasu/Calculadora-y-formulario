@@ -43,11 +43,16 @@ h2 button{
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    /* background-color: rgb(255, 255, 255); */
+    
      border-color: rgb(236, 174, 241); 
      border-width: 3px; 
     border-style: solid;
     border-radius: 35px;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 h2 button:hover{
     color: greenyellow; 
