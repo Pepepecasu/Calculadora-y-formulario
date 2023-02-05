@@ -46,18 +46,7 @@
     
     <label>X</label> <input type="number" value="" id="x" autofocus placeholder="Escribe la elasticidad">
    
-    <script> // se incrustra Js con una funcion 
-        function res() {  
-            
-            let div = document.createElement('div'); //se declara la variable del div 
-        div.className = "alert"; //se asigna una clase que crea un div en el html para mostrar el resultado
-        let k1= document.getElementById('k').value;
-        let x1=document.getElementById('x').value;//se relacionan las variables con los input
-        div.innerHTML = parseInt(k1) * parseInt(x1); //se hace la operacion 
-      
-        document.body.append(div, "N/m");//muestra la operaicion en el div 
-        }
-      </script>
+
             </form>
         <br>
      <button onclick="res()"> Calcular </button>
