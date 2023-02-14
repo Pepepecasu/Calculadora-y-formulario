@@ -1,3 +1,29 @@
-.btn{
+
+h2 button{
     
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: honeydew;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+     border-color: rgb(236, 174, 241); 
+     border-width: 3px; 
+    border-style: solid;
+    border-radius: 35px;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
+h2 button:hover{
+    color: greenyellow; 
+    transform: translateY(-10px);
+}
+
