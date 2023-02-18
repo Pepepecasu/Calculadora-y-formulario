@@ -35,6 +35,7 @@ h1 {
     text-align: center;
 }
 span{
+    text-align: center;
     color: black;
     display: block;
     font-family: monospace;
@@ -42,7 +43,7 @@ span{
     border-right: 4px solid;
     width: 392ch;
 
-    animation: typing 2s steps(392),
+    animation: typing 10s steps(392),
     blink .5s infinite step-end alternate ;
     overflow: hidden;
 }
