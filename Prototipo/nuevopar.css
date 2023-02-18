@@ -43,7 +43,7 @@ span{
     border-right: 4px solid;
     width: 392ch;
 
-    animation: typing 10s steps(392),
+    animation: typing 10s steps(137),
     blink .5s infinite step-end alternate ;
     overflow: hidden;
 }
@@ -81,6 +81,10 @@ li a:hover{
         flex-direction: column;
     }
     nav{
+        padding: 10px 0px;
+    }
+    body{
+        flex-direction: column;
         padding: 10px 0px;
     }
 }
