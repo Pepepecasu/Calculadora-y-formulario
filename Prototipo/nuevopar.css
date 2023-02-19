@@ -1,5 +1,5 @@
 body{
-
+    justify-content: space-between;
     margin: 0px;
     font-size: 20px;
 }
@@ -41,7 +41,7 @@ span{
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 137ch;
+    width: 128ch;
 
     animation: typing 10s steps(392),
     blink .5s infinite step-end alternate ;
