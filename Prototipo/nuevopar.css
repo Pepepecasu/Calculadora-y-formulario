@@ -64,6 +64,9 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
 }
+ol{
+    align-items: center;
+}
 li{
     text-align: justify;
 }
