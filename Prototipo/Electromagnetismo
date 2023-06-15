@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pepepecasu.github.io/Calculadora-y-formulario/Prototipo/nuevopar.css">
+    <link rel="stylesheet" href="https://pepepecasu.github.io/Calculadora-y-formulario/Prototipo/botones.css">
+        <title>Electromagnetismo</title>
+    <link rel="shortcut icon" href="https://pepepecasu.github.io/Calculadora-y-formulario/Prototipo/ma.png" type="image/x-icon">
+    <script src="https://pepepecasu.github.io/Calculadora-y-formulario/Prototipo/calculos.js"></script>
+</head>
+<body>
+    
+    <header>
+        <a href="https://pepepecasu.github.io/Calculadora-y-formulario/" target="_blank" class="logo">
+            <img src="https://pepepecasu.github.io/Calculadora-y-formulario/Prototipo/ma.png" alt="logo">
+            <h2 class="nom-em">La Manzana Newtoneana</h2>
+        </a>
+        <nav>
+           <a href="https://pepepecasu.github.io/Calculadora-y-formulario/" class="nav-link">Inicio</a>
+           <a href="https://pepepecasu.github.io/Calculadora-y-formulario/Prototipo/Nosostros.html" class="nav-link">Nosotros</a>
+           <a href="" class="nav-link">Fuentes</a>
+        </nav>
+       </header>
+   <h1>¿Qué es?</h1>
+   <p>
+       <br>
+    El Electromagnetismo estuidia la relación entre el magnetismo y la electricidad o los campos magneticos y los campos electricos, y como
+    estos se relacionan entre si
+       <br>
+   </p>
+   <h2> Formulas y unidades: </h2>
+   <p>
+    Φ = B · S · cosα  <br>
+    F = N · I <br>
+    H = F / L <br>
+    Φ= Flujo ( Weber) <br>
+    B Inducción ( Tesla)<br>
+    S Superficie ( m2)<br>
+    α Angulo que forma el vector inducción con la normal a la superficie S.<br>
+    F Fuerza ( Amperio-vuelta)<br>
+    N Espiras ( nº de espiras)<br>
+    I Intensidad ( Amperios)<br>
+    H Excitación (amperio- vuelta/m)
+    F Fuerza magnetomotriz<br>
+    L Longitud (metros)<br>
+  
+   <h2 >Calculadora <br>
+     <form id="miFormulario"> <label>F</label> <input type="number" value="" id="k" autofocus placeholder="Escribe la constante del muelle">
+        <br>
+    
+    <label>X</label> <input type="number" value="" id="x" autofocus placeholder="Escribe la elasticidad">
+   
+
+            </form>
+        <br>
+     <button onclick="res()"> Calcular </button>
+     <button onclick="resh()" id="con"> Refrescar </button>
+     
+       
+      
+       
+     <script>
+      function resh() {
+          document.getElementById('miFormulario').reset();
+          //document.getElementById('div').reset();
+          
+      }
+  </script>
+   
+   </h2>
+    
+   Resultados (Fs)
+    
+    
+</body>
+</html>
