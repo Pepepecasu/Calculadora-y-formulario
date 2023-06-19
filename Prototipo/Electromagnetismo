@@ -36,21 +36,22 @@
     F = N · I <br>
     H = F / L <br>
     Φ= Flujo ( Weber) <br>
-    B Inducción ( Tesla)<br>
-    S Superficie ( m2)<br>
+    B Inducción (Tesla)<br>
+    S Superficie (m2)<br>
     α Angulo que forma el vector inducción con la normal a la superficie S.<br>
-    F Fuerza ( Amperio-vuelta)<br>
-    N Espiras ( nº de espiras)<br>
-    I Intensidad ( Amperios)<br>
+    F Fuerza (Amperio-vuelta)<br>
+    N Espiras (nº de espiras)<br>
+    I Intensidad (Amperios)<br>
     H Excitación (amperio- vuelta/m)
     F Fuerza magnetomotriz<br>
     L Longitud (metros)<br>
   
    <h2 >Calculadora <br>
-     <form id="miFormulario"> <label>F</label> <input type="number" value="" id="k" autofocus placeholder="Escribe la constante del muelle">
+     <form id="miFormulario"> <label>B</label> <input type="number" value="" id="B" autofocus placeholder="Ingresa el valor de la inducción">
         <br>
     
-    <label>X</label> <input type="number" value="" id="x" autofocus placeholder="Escribe la elasticidad">
+    <label>S</label> <input type="number" value="" id="S" autofocus placeholder="Ingresa el valor de la superficie">
+    <label>cosα</label> <input type="number" value="" id="cosα" autofocus placeholder="Ingresa el valor del cos del angulo que forma el vector">
    
 
             </form>
