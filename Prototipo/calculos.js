@@ -38,3 +38,20 @@ div.innerHTML = parseInt(k1) * parseInt(x1); //se hace la operacion
 
 document.body.append(div, "N/m");//muestra la operaicion en el div 
 }
+
+
+
+
+
+
+function ees() {  
+            //operacion de electromagnetismo
+    let div = document.createElement('div'); //se declara la variable del div 
+div.className = "alert"; //se asigna una clase que crea un div en el html para mostrar el resultado
+let b1= document.getElementById('B').value;
+let s1=document.getElementById('S').value;//se relacionan las variables con los input
+let cos1=document.getElementById('cos').value
+div.innerHTML = parseInt(b1) * parseInt(s1) * parseInt(cos); //se hace la operacion 
+
+document.body.append(div, "N/m");//muestra la operaicion en el div 
+}
