@@ -50,7 +50,7 @@ function ees() {
 div.className = "alert"; //se asigna una clase que crea un div en el html para mostrar el resultado
 let n1= document.getElementById('N').value;
 let i1=document.getElementById('I').value;//se relacionan las variables con los input
-div.innerHTML = parseInt(b1) * parseInt(s1); //se hace la operacion 
+div.innerHTML = parseInt(n1) * parseInt(i1); //se hace la operacion 
 
 document.body.append(div, "A");//muestra la operaicion en el div 
 }
