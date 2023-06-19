@@ -89,7 +89,18 @@ Hay que tener en cuenta que, debido al efecto Joule, el cable se irá calentando
      <button onclick="ees()"> Calcular </button>
      <button onclick="resh()" id="con"> Refrescar </button>
      
-       
+    <script>
+        function ees() {  
+            //operacion de electromagnetismo
+    let div = document.createElement('div'); //se declara la variable del div 
+div.className = "alert"; //se asigna una clase que crea un div en el html para mostrar el resultado
+let n1= document.getElementById('N').value;
+let i1=document.getElementById('I').value;//se relacionan las variables con los input
+div.innerHTML = parseInt(b1) * parseInt(s1); //se hace la operacion 
+
+document.body.append(div, "A");//muestra la operaicion en el div 
+}
+    </script>
      <script>
       function resh() {
           document.getElementById('miFormulario').reset();
