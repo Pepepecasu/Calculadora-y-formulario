@@ -48,10 +48,9 @@ function ees() {
             //operacion de electromagnetismo
     let div = document.createElement('div'); //se declara la variable del div 
 div.className = "alert"; //se asigna una clase que crea un div en el html para mostrar el resultado
-let b1= document.getElementById('B').value;
-let s1=document.getElementById('S').value;//se relacionan las variables con los input
-let cos1=document.getElementById('cosa').value
-div.innerHTML = parseInt(b1) * parseInt(s1) * parseInt(cosa); //se hace la operacion 
+let n1= document.getElementById('N').value;
+let i1=document.getElementById('I').value;//se relacionan las variables con los input
+div.innerHTML = parseInt(b1) * parseInt(s1); //se hace la operacion 
 
-document.body.append(div, "N/m");//muestra la operaicion en el div 
+document.body.append(div, "A");//muestra la operaicion en el div 
 }
